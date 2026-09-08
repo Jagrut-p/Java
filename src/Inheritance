@@ -1,0 +1,18 @@
+Inheritance:- To reuse the code/logic
+
+										Student is a Person(100% TRUE)										EMPLOYEE HAS A ADDRESS
+
+			
+										IS A RELATION												HAS A RELATION			
+											|
+										Types of Relation
+											|
+										2. By Interface(Abstract Top)
+					------------------------------------------------------------------------------------------------------
+					|												      |
+				  By Java Class												      |
+					|												      |
+			-----------------------------------------									      |
+			|		|			|							   -----------------------------------------
+		    Single 	      Multilevel	Hierarchical							   |					    |
+															Multiple 				 Hybrid
