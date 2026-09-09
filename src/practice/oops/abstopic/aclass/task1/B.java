@@ -6,6 +6,7 @@ public abstract class B extends A{
 	{
 		System.out.println("B -- Test1");
 	}
+	@Override
 	public void test2()
 	{
 		System.out.println("B -- Test2");
