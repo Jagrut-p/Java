@@ -12,22 +12,22 @@ public class TestApp {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your Choice: ");
 		choice = sc.nextInt();
-		Person person = null;
+		Person val = null;
 		switch (choice) {
 		case 1:
-			person = new Org();
-			getBehaveByPlace(person);
+			val = new Org();
+			getBehaveByPlace(val);
 			break;
 		case 2:
-			person = new Home();
-			getBehaveByPlace(person);
+			val = new Home();
+			getBehaveByPlace(val);
 			break;
-		case 3:
-			person = new School();
-			getBehaveByPlace(person);
+		case 3: val = new PublicPlace();
+			getBehaveByPlace(val);
 			break;
-		case 4: person = new PublicPlace();
-			getBehaveByPlace(person);
+		case 4:
+			val = new School();
+			getBehaveByPlace(val);
 			break;
 		}
 	}
