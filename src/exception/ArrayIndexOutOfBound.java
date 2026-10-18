@@ -1,0 +1,8 @@
+package exception;
+import java.util.Scanner;
+public class ArrayIndexOutOfBound {
+	public static void main(String[] args) {
+		int no[] = new int[5];
+		System.out.println(no[5]);
+	}
+}
